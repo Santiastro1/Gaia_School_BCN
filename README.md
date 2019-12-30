@@ -47,7 +47,7 @@ $ jupyter notebook
 
 Now, in order to test some of the python libraries, you will need to download extra files:
 
-###1- Used by ```yt```: Data files from N-body simulations obtained using a large variety of numerical codes: https://yt-project.org/data/.
+### 1- Used by ```yt```: Data files from N-body simulations obtained using a large variety of numerical codes: https://yt-project.org/data/.
 
 Here we will usedata from ART and RAMSES numerical codes so we recommend you to download the following files and move them to the ```Gaia_SChool_BCN``` folder:
 
@@ -79,7 +79,7 @@ $ cd ~/Gaia_School_BCN/
 $ tar -zxvf output_00080.tar.gz
 ```
 
-###2- Used by pynbody:
+### 2- Used by pynbody:
 
 Download and extract the following files to your Gaia_School_BCN folder
 
