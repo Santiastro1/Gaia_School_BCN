@@ -54,7 +54,7 @@ Here we will usedata from ART and RAMSES numerical codes so we recommend you to 
 http://yt-project.org/data/sizmbhloz-clref04SNth-rs9_a0.9011.tar.gz
 
 ```console
-$ mv ~/Downloads/sizmbhloz-clref04SNth-rs9_a0.9011.tar.gz ~/Gaia_School_BCN/
+$ mv ~/Downloads/sizmbhloz-clref04SNth-rs9_a0.9011.tar ~/Gaia_School_BCN/
 ```
 
 ```console
@@ -62,7 +62,11 @@ $ cd ~/Gaia_School_BCN/
 ```
 
 ```console
-$ tar -zxvf sizmbhloz-clref04SNth-rs9_a0.9011.tar.gz
+$ tar -zxvf sizmbhloz-clref04SNth-rs9_a0.9011.tar
+
+```
+```console
+$ rm sizmbhloz-clref04SNth-rs9_a0.9011.tar
 ```
 
 http://yt-project.org/data/output_00080.tar.gz
@@ -76,7 +80,11 @@ $ cd ~/Gaia_School_BCN/
 ```
 
 ```console
-$ tar -zxvf output_00080.tar.gz
+$ tar -zxvf output_00080.tar
+```
+
+```console
+$ rm output_00080.tar
 ```
 
 ### 2- Used by pynbody:
@@ -86,7 +94,7 @@ Download and extract the following files to your Gaia_School_BCN folder
 http://star.ucl.ac.uk/~app/testdata.tar.gz
 
 ```console
-$ mv ~/Downloads/testdata.tar.gz ~/Gaia_School_BCN/
+$ mv ~/Downloads/testdata.tar ~/Gaia_School_BCN/
 ```
 
 ```console
@@ -94,7 +102,11 @@ $ cd ~/Gaia_School_BCN/
 ```
 
 ```console
-$ tar -zxvf testdata.tar.gz
+$ tar -zxvf testdata.tar
+```
+
+```console
+$ rm testdata.tar
 ```
 
 Now open the ```MWG_BCN20_envtest.ipynb``` and run each one of the cells in order to test the yt, pynbody and ```Python3.7``` libraries installation.
