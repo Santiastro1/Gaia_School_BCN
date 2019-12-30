@@ -109,7 +109,7 @@ $ tar -zxvf testdata.tar
 $ rm testdata.tar
 ```
 
-Now open the ```MWG_BCN20_envtest.ipynb``` and run each one of the cells in order to test the yt, pynbody and ```Python3.7``` libraries installation.
+Now open the ```MWG_BCN20_envtest.ipynb``` in the web brownser and run each one of the cells in order to test the yt, pynbody and ```Python3.7``` libraries installation.
 
 If you succeed on running all cells in this notebook, you are now ready to work on the ```MWG_BCN20``` school hands-on sessions.
 
