@@ -1,0 +1,15 @@
+# Gaia_School_BCN_env.yml v1.1
+name: MWG_BCN20
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy=1.15.4
+  - jupyter
+  - pynbody
+  - matplotlib
+  - anaconda-navigator
+  - pip
+  - pip:
+    - yt
