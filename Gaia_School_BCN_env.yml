@@ -7,9 +7,9 @@ dependencies:
   - python=3.7
   - numpy=1.15.4
   - jupyter
-  - pynbody
   - matplotlib
   - anaconda-navigator
   - pip
   - pip:
     - yt
+    - pynbody
