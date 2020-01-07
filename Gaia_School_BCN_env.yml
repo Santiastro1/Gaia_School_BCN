@@ -15,3 +15,5 @@ dependencies:
     - yt
     - pynbody
     - astro-limepy
+    - dislib
+    - docker
